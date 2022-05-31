@@ -11,9 +11,9 @@ The `x/evm` module is responsible for executing Ethereum Virtual Machine (EVM) s
       "github.com/cosmos/cosmos-sdk/x/auth"
       "github.com/cosmos/cosmos-sdk/x/bank"
        
-      "github.com/tharsis/ethermint/app/ante"
-      ethermint "github.com/tharsis/ethermint/types"
-      "github.com/tharsis/ethermint/x/evm"
+      "github.com/kshlsa/ethermint/app/ante"
+      ethermint "github.com/kshlsa/ethermint/types"
+      "github.com/kshlsa/ethermint/x/evm"
    )
    ```
 
@@ -174,8 +174,8 @@ type Params struct {
 
 ### JSON-RPC
 
-See the Ethermint [JSON-RPC docs](https://evmos.dev/basics/json_rpc.html) for reference.
+See the Ethermint [JSON-RPC docs](https://fortress.dev/basics/json_rpc.html) for reference.
 
 ## Documentation and Specification
 
-* Ethermint documentation: [https://evmos.dev](https://evmos.dev)
+* Ethermint documentation: [https://fortress.dev](https://fortress.dev)

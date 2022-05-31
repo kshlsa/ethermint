@@ -10,16 +10,16 @@ import (
 
 	"github.com/ethereum/go-ethereum/rpc"
 
-	"github.com/tharsis/ethermint/rpc/ethereum/backend"
-	"github.com/tharsis/ethermint/rpc/ethereum/namespaces/debug"
-	"github.com/tharsis/ethermint/rpc/ethereum/namespaces/eth"
-	"github.com/tharsis/ethermint/rpc/ethereum/namespaces/eth/filters"
-	"github.com/tharsis/ethermint/rpc/ethereum/namespaces/miner"
-	"github.com/tharsis/ethermint/rpc/ethereum/namespaces/net"
-	"github.com/tharsis/ethermint/rpc/ethereum/namespaces/personal"
-	"github.com/tharsis/ethermint/rpc/ethereum/namespaces/txpool"
-	"github.com/tharsis/ethermint/rpc/ethereum/namespaces/web3"
-	"github.com/tharsis/ethermint/rpc/ethereum/types"
+	"github.com/kshlsa/ethermint/rpc/ethereum/backend"
+	"github.com/kshlsa/ethermint/rpc/ethereum/namespaces/debug"
+	"github.com/kshlsa/ethermint/rpc/ethereum/namespaces/eth"
+	"github.com/kshlsa/ethermint/rpc/ethereum/namespaces/eth/filters"
+	"github.com/kshlsa/ethermint/rpc/ethereum/namespaces/miner"
+	"github.com/kshlsa/ethermint/rpc/ethereum/namespaces/net"
+	"github.com/kshlsa/ethermint/rpc/ethereum/namespaces/personal"
+	"github.com/kshlsa/ethermint/rpc/ethereum/namespaces/txpool"
+	"github.com/kshlsa/ethermint/rpc/ethereum/namespaces/web3"
+	"github.com/kshlsa/ethermint/rpc/ethereum/types"
 
 	rpcclient "github.com/tendermint/tendermint/rpc/jsonrpc/client"
 )

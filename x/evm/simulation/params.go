@@ -8,7 +8,7 @@ import (
 
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
-	"github.com/tharsis/ethermint/x/evm/types"
+	"github.com/kshlsa/ethermint/x/evm/types"
 )
 
 const (

@@ -12,7 +12,7 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	paramstypes "github.com/cosmos/cosmos-sdk/x/params/types"
 
-	ethermint "github.com/tharsis/ethermint/types"
+	ethermint "github.com/kshlsa/ethermint/types"
 
 	"github.com/cosmos/cosmos-sdk/simapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"

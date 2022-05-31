@@ -9,14 +9,14 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/core/vm"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/tharsis/ethermint/x/evm/statedb"
+	"github.com/kshlsa/ethermint/x/evm/statedb"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/tharsis/ethermint/crypto/ethsecp256k1"
-	"github.com/tharsis/ethermint/server/config"
-	ethermint "github.com/tharsis/ethermint/types"
-	"github.com/tharsis/ethermint/x/evm/types"
+	"github.com/kshlsa/ethermint/crypto/ethsecp256k1"
+	"github.com/kshlsa/ethermint/server/config"
+	ethermint "github.com/kshlsa/ethermint/types"
+	"github.com/kshlsa/ethermint/x/evm/types"
 )
 
 // Not valid Ethereum address

@@ -20,9 +20,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/genutil"
 	genutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"
 
-	"github.com/tharsis/ethermint/crypto/hd"
-	ethermint "github.com/tharsis/ethermint/types"
-	evmtypes "github.com/tharsis/ethermint/x/evm/types"
+	"github.com/kshlsa/ethermint/crypto/hd"
+	ethermint "github.com/kshlsa/ethermint/types"
+	evmtypes "github.com/kshlsa/ethermint/x/evm/types"
 )
 
 const (

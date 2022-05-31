@@ -4,15 +4,16 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	authtx "github.com/cosmos/cosmos-sdk/x/auth/tx"
-	"github.com/tharsis/ethermint/rpc/ethereum/types"
 	"math/big"
 	"testing"
 
+	"github.com/cosmos/cosmos-sdk/client/flags"
+	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	authtx "github.com/cosmos/cosmos-sdk/x/auth/tx"
+	"github.com/kshlsa/ethermint/rpc/ethereum/types"
+
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	evmtypes "github.com/tharsis/ethermint/x/evm/types"
+	evmtypes "github.com/kshlsa/ethermint/x/evm/types"
 
 	// . "github.com/onsi/ginkgo"
 	// . "github.com/onsi/gomega"
@@ -27,9 +28,9 @@ import (
 	"github.com/ethereum/go-ethereum/ethclient/gethclient"
 	"github.com/ethereum/go-ethereum/rpc"
 
-	"github.com/tharsis/ethermint/server/config"
-	"github.com/tharsis/ethermint/testutil/network"
-	ethermint "github.com/tharsis/ethermint/types"
+	"github.com/kshlsa/ethermint/server/config"
+	"github.com/kshlsa/ethermint/testutil/network"
+	ethermint "github.com/kshlsa/ethermint/types"
 )
 
 // var _ = Describe("E2e", func() {
